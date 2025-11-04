@@ -1,0 +1,11 @@
+image: alpine:latest
+pages:
+  script:
+    - mkdir public
+    - cp index.html styles.css public/
+  artifacts:
+    paths:
+      - "public"
+  only:
+    - main
+    
