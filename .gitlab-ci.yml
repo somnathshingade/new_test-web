@@ -2,7 +2,7 @@ image: alpine:latest
 pages:
   script:
     - mkdir public
-    - cp index.html styles.css public/
+    - cp webtest.html webtest.css public/
   artifacts:
     paths:
       - "public"
